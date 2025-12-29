@@ -3,7 +3,7 @@
 
 [![PyPi Version](https://img.shields.io/pypi/v/littlecolors.svg)](https://pypi.org/project/littlecolors/) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-`littlecolors` is a simple, Python package to create, manipulate and mutate colors and color-scales.
+`littlecolors` is a simple Python package to create, manipulate and mutate colors and color-scales.
 
 
 ## Installation and Usage

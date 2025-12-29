@@ -5,8 +5,15 @@ Some helper functions to display Color related objects using Matplotlib.
 
 # Imports ----------------------------------------------------------------------
 import numpy as np
-import matplotlib.pyplot as plt
-from matplotlib.colors import ListedColormap
+try:
+    import matplotlib.pyplot as plt
+    from matplotlib.colors import ListedColormap
+except ImportError as err:
+    raise ImportError(
+        "To use the show helpers of littlecsv, please install optional dependencies with: "
+        "pip install littlecolors[helpers]."
+        f"ImportError: {err}"
+    )
 from littlecolors import Color, Colormap
 
 
